@@ -1,5 +1,5 @@
 {
-  "name": "projectwebpack",
+  "name": "todolist1",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarioAlessioR/projectwebpack.git"
+    "url": "git+https://github.com/DarioAlessioR/todolist1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DarioAlessioR/projectwebpack/issues"
+    "url": "https://github.com/DarioAlessioR/todolist1/issues"
   },
-  "homepage": "https://github.com/DarioAlessioR/projectwebpack#readme",
+  "homepage": "https://github.com/DarioAlessioR/todolist1#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
