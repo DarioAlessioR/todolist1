@@ -28,7 +28,7 @@ On page load render the dynamically created list of tasks in the dedicated place
 ## Live Demo (if available)
 
 
-## Getting Started
+## Getting Started:
 
 
 ### Prerequisites
