@@ -6,7 +6,7 @@
 
 It's a simple HTML page list of To Do tasks. The list will be styled according to the specifications listed later in this README file. This simple web page will be built using webpack and served by a webpack dev server.
 
-## Requirements
+## Requirements:
 
 - Set up a new project with webpack that is based on the webpack exercise you have already completed.
 - Create an index.html file and write your HTML markup here. Create an empty To Do List placeholder (<div> or <ul> element). The index.html file must be set as a template using the HTML Webpack Plugin.
