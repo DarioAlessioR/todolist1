@@ -63,9 +63,10 @@ submitbtn.addEventListener('click', () => {
   showtodolist(todolist);
 });
 
+/*
 const d = new Date();
 document.getElementById('today').innerHTML = d;
-
+*/
 /*
 if (localStorage.getItem('todolist') !== null && localStorage.getItem('todolist') !== undefined) {
   Book.setBooks(JSON.parse(localStorage.getItem('todolist')));
