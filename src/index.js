@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import _ from 'lodash';
+
 import './style.css';
 
 const todolist = [{
@@ -7,15 +7,6 @@ const todolist = [{
   todo: 'mmmmmmmmmmmm',
   todostatus: '',
 }];
-
-const submitbtn = document.getElementById('submit');
-submitbtn.addEventListener('click', () => {
-  const todoinput = document.getElementById('todo-input');
-  const inputtodo = todoinput.value;
-  addtodo(inputtodo);
-  todoinput.value = '';
-  showtodolist(todolist);
-});
 
 const addtodo = (inputtodo) => {
   if (inputtodo.length < 1) {
@@ -51,7 +42,6 @@ const showtodolist = (todolist) => {
     divicon3.setAttribute('class', 'change');
     const icon3 = document.createElement('i');
     icon3.setAttribute('class', 'fa-solid fa-ellipsis-vertical');
-
     divicon3.addEventListener('click', () => {
       icon3.setAttribute('class', 'fa-solid fa-trash-can');
     });
@@ -63,6 +53,15 @@ const showtodolist = (todolist) => {
     totallist.appendChild(line);
   }
 };
+
+const submitbtn = document.getElementById('submit');
+submitbtn.addEventListener('click', () => {
+  const todoinput = document.getElementById('todo-input');
+  const inputtodo = todoinput.value;
+  addtodo(inputtodo);
+  todoinput.value = '';
+  showtodolist(todolist);
+});
 
 const d = new Date();
 document.getElementById('today').innerHTML = d;
@@ -84,4 +83,8 @@ function component() {
 }
 
 document.body.appendChild(component());
+*/
+
+/*
+import _ from 'lodash';
 */
