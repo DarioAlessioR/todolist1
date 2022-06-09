@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-</head>
-<body>
-    <h1>Hello webpack!</h1>
-</body>
+    <title>To Do List</title>
+    <script
+      src="https://kit.fontawesome.com/8bfb3ed134.js"
+      crossorigin="anonymous">
+    </script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  
+  <header>
+    <p>Today's To Do List</p>
+    <span onclick="" class="recycle"><i class="fas fa-sync"></i></span>
+    
+  </header>
+  
+  
+  <body>
+    <div class="boxshadow">
+
+        <div class="inputform">
+          <input type="text" name="todo-input" id="todo-input" autocomplete="off"
+          required placeholder="Add to your list..." />
+          
+          <div id="message"></div>
+      
+        <button type="button" id="submit"><i class="fa-solid fa-cloud-arrow-up"></i></button>
+
+        </div>
+
+        <div id="totallist"></div>
+
+    </div>
+      
+
+    <div><i class="fa fa-trash" aria-hidden="true"></i></div>
+  
+
+    <p class="clear">Clear all completed</p>
+
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    
+    <div id="today">date</div>
+  </body>
 </html>
